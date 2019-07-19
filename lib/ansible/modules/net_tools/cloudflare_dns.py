@@ -60,6 +60,11 @@ options:
     - Needed for C(type=DS) when C(state=present).
     type: int
     version_added: '2.7'
+  name:
+    description:
+    - Service name.
+    - Required for C(type=SRV)
+    type: str
   port:
     description:
     - Service port.
